@@ -63,6 +63,7 @@ void run_game(){
         if(strlen(buf) == 2){
             int ic, im, ism;
             switch(buf[0]){
+                /* 
                 case 'k':
                     // ic = is_check(cur_team);
                     // im = is_mate(cur_team);
@@ -71,7 +72,7 @@ void run_game(){
                     // printf("is mate: %s\n", im ? "true" : "false");
                     printf("is stale mate: %s\n", ism ? "true" : "false");
                     continue;
-                /* 
+                 
                 case 'u':
                     if(moveCount > 0){
                         undoMove();
