@@ -1,0 +1,10 @@
+* the "selected piece at..." should give square, not coords
+* naming conventions suck. stick with lower camel case on functions
+* organization of functions seems chaotic in general
+* documentation is incomplete at best
+* at once too many comments and not enough
+* there should be a util file for general functions, such as coordToSquare
+	- chessUtil.c
+* C_Chess -> cChess
+* TODO: macros? specifically for isInbounds
+* error checking
